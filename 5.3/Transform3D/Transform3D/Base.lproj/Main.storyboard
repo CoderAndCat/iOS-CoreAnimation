@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,44 +18,104 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="moA-p3-xhc">
-                                <rect key="frame" x="60" y="440" width="300" height="300"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="frame" x="310" y="44" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="7R9-xS-cW3"/>
-                                    <constraint firstAttribute="width" constant="300" id="t4V-mu-y4f"/>
+                                    <constraint firstAttribute="height" constant="100" id="7R9-xS-cW3"/>
+                                    <constraint firstAttribute="width" constant="100" id="t4V-mu-y4f"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zl7-2G-vjM">
-                                <rect key="frame" x="460" y="440" width="300" height="300"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="frame" x="410" y="44" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="0MF-SG-fYq"/>
-                                    <constraint firstAttribute="width" constant="300" id="CfZ-qQ-3Ce"/>
+                                    <constraint firstAttribute="height" constant="100" id="0MF-SG-fYq"/>
+                                    <constraint firstAttribute="width" constant="100" id="CfZ-qQ-3Ce"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjr-eZ-fWz">
+                                <rect key="frame" x="295" y="156" width="230" height="230"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FTf-15-vym">
+                                        <rect key="frame" x="55" y="55" width="120" height="120"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="3do-tZ-Aaa"/>
+                                            <constraint firstAttribute="width" constant="120" id="Dpe-oM-YJg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="LTg-0w-wfU"/>
+                                    <constraint firstAttribute="height" constant="230" id="jcK-2Y-qfa"/>
+                                    <constraint firstItem="FTf-15-vym" firstAttribute="centerY" secondItem="gjr-eZ-fWz" secondAttribute="centerY" id="peV-Kc-cEt"/>
+                                    <constraint firstItem="FTf-15-vym" firstAttribute="centerX" secondItem="gjr-eZ-fWz" secondAttribute="centerX" id="ue2-5b-dpf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31P-NG-opU">
+                                <rect key="frame" x="310" y="416" width="200" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RPI-2b-xqb">
+                                        <rect key="frame" x="50" y="50" width="100" height="100"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="RvX-nE-H0r"/>
+                                            <constraint firstAttribute="height" constant="100" id="lpa-j3-gVx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="MFL-T8-24D"/>
+                                    <constraint firstAttribute="width" constant="200" id="OWn-r1-wU2"/>
+                                    <constraint firstItem="RPI-2b-xqb" firstAttribute="centerY" secondItem="31P-NG-opU" secondAttribute="centerY" id="RDM-r0-ZfI"/>
+                                    <constraint firstItem="RPI-2b-xqb" firstAttribute="centerX" secondItem="31P-NG-opU" secondAttribute="centerX" id="uxu-Ml-hbJ"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
-                            <constraint firstItem="moA-p3-xhc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7vx-uo-E3J"/>
-                            <constraint firstItem="zl7-2G-vjM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="200" id="dZ9-T4-u6d"/>
-                            <constraint firstItem="zl7-2G-vjM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="f1S-Rg-GCH"/>
-                            <constraint firstItem="moA-p3-xhc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-200" id="pdA-vq-BwP"/>
+                            <constraint firstItem="gjr-eZ-fWz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="132" id="0LZ-o0-kNU"/>
+                            <constraint firstItem="zl7-2G-vjM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="4L4-RG-lhb"/>
+                            <constraint firstItem="gjr-eZ-fWz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5zb-zS-WN4"/>
+                            <constraint firstItem="moA-p3-xhc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-50" id="ODJ-6H-4em"/>
+                            <constraint firstItem="31P-NG-opU" firstAttribute="top" secondItem="gjr-eZ-fWz" secondAttribute="bottom" constant="30" id="Oia-xv-wTK"/>
+                            <constraint firstItem="31P-NG-opU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V3a-DT-Iy1"/>
+                            <constraint firstItem="zl7-2G-vjM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="50" id="hc5-fz-9Qc"/>
+                            <constraint firstItem="moA-p3-xhc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="i33-54-oad"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="layerView" destination="moA-p3-xhc" id="Yha-gq-usq"/>
                         <outlet property="layerView2" destination="zl7-2G-vjM" id="7gj-KL-fbi"/>
+                        <outlet property="rotateInnerView" destination="FTf-15-vym" id="gM9-DV-wHt"/>
+                        <outlet property="rotateOuterView" destination="gjr-eZ-fWz" id="XJR-Ko-1uU"/>
+                        <outlet property="rotateYInnerView" destination="RPI-2b-xqb" id="42U-ah-kno"/>
+                        <outlet property="rotateYOuterView" destination="31P-NG-opU" id="moU-hq-FkJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
+            <point key="canvasLocation" x="28.536585365853657" y="69.152542372881356"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
